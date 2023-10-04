@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+/*home/cabeçalho*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+body {
+  background-color: rgb(36, 34, 34);
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filho {
+  margin-top: 8px;
+  box-shadow: 10px;
+}
+
+h4 {
+  margin-top: 40px;
+  color: #0864df;
+}
+
+h1 {
+  background: -webkit-linear-gradient(top, #0864df, #0864df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home {
+  color: #0864df;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #00316b;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.jogos {
+  color: #0864df;
+}
+
+.entrar {
+  color: #0864df;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/*imagens do site (catlogo)*/
+.imagens a img {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.imagens {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagens a {
+  flex-basis: calc(25% - 20px);
+  position: relative;
+  overflow: hidden;
+}
+
+.imagens a:hover img {
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/*imagem 1 do catalogo*/
+.imagens1 a img {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.imagens1 a {
+  flex-basis: calc(25% - 20px);
+  position: relative;
+  overflow: hidden;
+}
+
+.imagens1 a:hover img {
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/*imagem 2 do catalogo*/
+.imagens2 a img {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.imagens2 a {
+  flex-basis: calc(25% - 20px);
+  position: relative;
+  overflow: hidden;
+}
+
+.imagens2 a:hover img {
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/*imagem 3 do catalogo*/
+.imagens3 a img {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.imagens3 a {
+  flex-basis: calc(25% - 20px);
+  position: relative;
+  overflow: hidden;
+}
+
+.imagens3 a:hover img {
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/*imagem 4 do catalgo*/
+.imagens4 a img {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.imagens4 a {
+  flex-basis: calc(25% - 20px);
+  position: relative;
+  overflow: hidden;
+}
+
+.imagens4 a:hover img {
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+
+
+
+/*rodape*/
+
+.caixa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: white;
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.card p {
+  color: #0864df;
+
+}
+
+.image {
+  float: right;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.sobre {
+  border-left: 3px solid #0864df;
+  background-color: rgb(36, 34, 34);
+  border-radius: 20px;
+
+}
+
+.central {
+  border-left: 3px solid #0864df;
+  background-color: rgb(36, 34, 34);
+  border-radius: 20px;
+}
+
+.seguranca {
+  border-left: 3px solid #0864df;
+  background-color: rgb(36, 34, 34);
+  border-radius: 20px;
+}
+
+hr {
+  border-color: #0864df;
+}
+
+
+h1 {
+  color: #0864df;
+  font-size: 100px;
+}
+
+h2 {
+  color: #0864df;
+}
+
+.card p {
+  color: aliceblue;
+  font-size: 16px;
+}
+
+.f4 {
+  color: aliceblue;
+}
+
+footer {
+  background-color: #0864df;
+  width: 100%;
+}
