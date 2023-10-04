@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00316b;
+    height: 100px;
+}
+
+body {
+    color: #007bff;
+    background-color: rgb(36, 34, 34);
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: white;
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card p {
+    color: #0864df;
+
+}
+
+.image {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.sobre {
+    border-left: 3px solid #0864df;
+    background-color: rgb(36, 34, 34);
+    border-radius: 20px;
+
+}
+
+.central {
+    border-left: 3px solid #0864df;
+    background-color: rgb(36, 34, 34);
+    border-radius: 20px;
+}
+
+.seguranca {
+    border-left: 3px solid #0864df;
+    background-color: rgb(36, 34, 34);
+    border-radius: 20px;
+}
+
+hr {
+    border-color: #0864df;
+}
+
+h1 {
+    color: #0864df;
+    font-size: 100px;
+    margin-top: 100px;
+}
+
+h2 {
+    color: #0864df;
+}
+
+.card p {
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.f4 {
+    color: aliceblue;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #0864df;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.jogos {
+    color: #0864df;
+}
+
+.entrar {
+    color: #0864df;
+
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    margin-top: 150px;
+}
+
+.whats {
+    width: 150px;
+    height: 110px;
+
+}
+
+footer {
+    margin-top: 200px;
+}
+
+.suporte {
+    margin-top: 200px;
+    font-size: 45px;
+}
