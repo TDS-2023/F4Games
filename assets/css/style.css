@@ -30,32 +30,19 @@ body {
   margin-left: 150px;
 }
 /*sobre o grupo*/
-.filho {
-  margin-top: 8px;
-  box-shadow: 10px;
-}
-/**/
-h4 {
-  margin-top: 40px;
-  color: #0864df;
-}
 
 h1 {
   background: -webkit-linear-gradient(top, #0864df, #0864df);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-.home {
-  color: #0864df;
-}
-
+/*clicar para entrar*/
 header {
   position: relative;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #3681E8;
+  background-color: #007bff;
 
 }
 
@@ -67,23 +54,24 @@ header {
 }
 
 .jogos {
-  color: #0c4692;
-  margin-left: 1100px;
-  margin-top: 30px;
+  color: #00316b;
+  margin-left: 755px;
+  margin-top: 40px;
 
 }
 
 .jogos1{
   text-decoration: none;
-  color: #0c4692;
+  color: #00316b;
+ 
 }
 
 .entrar {
-  color: #0c4692;
-  margin-left: 30px;
-  margin-top: 30px;
+  color: #00316b;
+  margin-top: 40px;
+  text-decoration: none;
 }
-
+/*clicar para entrar*/
 /*imagens do site (catlogo)*/
 .imagens a img {
   opacity: 0.5;
@@ -101,6 +89,15 @@ header {
   cursor: pointer;
   transform: scale(1.05);
 }
+/*imagens do site (catlogo)*/
+/* um sobre f4games */
+.lista{
+  margin-left: -148px;
+  width: 900px;
+  justify-content: end;
+  margin-top: 100px;
+}
+/* um sobre f4games */
 
 /*rodape*/
 
@@ -182,10 +179,4 @@ footer {
   margin-top: 150px;
  
 }
-.lista{
-  margin-left: -148px;
-  width: 900px;
-  justify-content: end;
-  margin-top: 100px;
-}
-
+/*rodape*/

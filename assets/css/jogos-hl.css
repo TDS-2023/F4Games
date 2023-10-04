@@ -4,6 +4,7 @@
     font-family: 'Bebas Neue', sans-serif;
 
 }
+
 /* acima é uma fonte importada */
 
 body {
@@ -14,6 +15,7 @@ body {
 .Jogo1 {
     box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 5);
     border-radius: 50px;
+    text-decoration: none;
 }
 
 body {
@@ -27,6 +29,7 @@ body {
     margin-bottom: 100px;
 
 }
+
 /* linhas acima sao cor e imagem de fundo  */
 /* linhas abaixo sao informaçoes de compra  */
 
@@ -87,6 +90,7 @@ body {
     line-height: 1.125rem;
 
 }
+
 .preço {
     width: 100%;
     margin-top: 20px;
@@ -96,6 +100,7 @@ body {
     font-size: 20px;
     color: white;
 }
+
 .pix0 {
     align-items: center;
     margin-bottom: 50px;
@@ -112,6 +117,7 @@ body {
 .p2-1 {
     color: #145c80;
 }
+
 /* linhas abaixo é um bota  */
 
 .botao {
@@ -122,12 +128,14 @@ body {
     height: 50px;
     background-color: rgb(75, 218, 75);
 }
+
 /* linha abaixo é um logo do jogo  */
 
 .logo1 {
     box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 5);
     border-radius: 60px;
 }
+
 /* linhas abaixo sao um resumo do jogo  */
 .resumo-jogo {
     font-size: 40px;
@@ -138,6 +146,7 @@ body {
 
 
 }
+
 /* linhas abaixo sao um trailer  */
 
 .trailer-conteudo {
@@ -149,6 +158,7 @@ body {
     margin-left: 300px;
 
 }
+
 /* linhas abaixo sao um local de compra  */
 
 
@@ -179,6 +189,7 @@ body {
     height: 50px;
     background-color: rgb(75, 218, 75);
 }
+
 /* linhas abaixo sao o menu do nosso site  */
 
 .menu {
@@ -189,11 +200,12 @@ body {
 
 .jogos {
     color: #00316b;
+    text-decoration: none;
 }
 
 .entrar {
     color: #00316b;
-
+    text-decoration: none;
 }
 
 

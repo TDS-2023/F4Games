@@ -4,6 +4,7 @@
     font-family: 'Bebas Neue', sans-serif;
 
 }
+
 /*linha acima é uma fonte importada*/
 
 body {
@@ -25,7 +26,9 @@ body {
     background-image: url("../img/logofundo0.png");
     height: 70vh;
     margin-bottom: 100px;
-}/*linhas acima sao cor e imagem */
+}
+
+/*linhas acima sao cor e imagem */
 /*linhas abaixo sao informaçoes de compra*/
 
 .jogo {
@@ -53,6 +56,7 @@ body {
     font-size: 50px;
     text-align: center;
 }
+
 /*linhas abaixo é o logo do nosso site*/
 
 .f4 {
@@ -87,6 +91,7 @@ body {
     line-height: 1.125rem;
 
 }
+
 .pix0 {
     align-items: center;
     margin-bottom: 50px;
@@ -112,6 +117,7 @@ body {
 .p2-1 {
     color: #145c80;
 }
+
 /*linhas abaixo sao um botao*/
 .botao {
     font-size: 20px;
@@ -121,12 +127,14 @@ body {
     height: 50px;
     background-color: rgb(75, 218, 75);
 }
+
 /*linhas abaixo é um logo do jogo*/
 
 .logo1 {
     box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 5);
     border-radius: 60px;
 }
+
 /*lionhas abaixo é um resumo do jogo*/
 .resumo-jogo {
     font-size: 40px;
@@ -137,6 +145,7 @@ body {
 
 
 }
+
 /*linhas abaixo é um trailer do jogo*/
 .trailer-conteudo {
     display: flex;
@@ -177,6 +186,7 @@ body {
     height: 50px;
     background-color: rgb(75, 218, 75);
 }
+
 /*linhas abaixo é o menu do site */
 .menu {
     display: flex;
@@ -186,11 +196,12 @@ body {
 
 .jogos {
     color: #00316b;
+    text-decoration: none;
 }
 
 .entrar {
     color: #00316b;
-
+    text-decoration: none;
 }
 
 
@@ -199,8 +210,8 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color:#007bff ;
-    
+    background-color: #007bff;
+
     height: 100px;
 }
 
@@ -275,7 +286,7 @@ h2 {
     font-size: 16px;
 }
 
-.f4g{
+.f4g {
     color: aliceblue;
 }
 
