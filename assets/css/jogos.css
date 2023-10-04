@@ -169,10 +169,6 @@ main {
   transform: scale(1.05);
 }
 
-
-
-
-
 /*rodape*/
 
 .caixa {
@@ -224,7 +220,7 @@ main {
   border-left: 3px solid #0864df;
   background-color: rgb(36, 34, 34);
   border-radius: 20px;
- 
+
 }
 
 hr {
