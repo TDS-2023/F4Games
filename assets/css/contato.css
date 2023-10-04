@@ -12,7 +12,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #00316b;
+    background-color: #007bff;
     height: 100px;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .sobre {
-    border-left: 3px solid #007bff;
+
     background-color: rgb(36, 34, 34);
     border-radius: 20px;
 
@@ -106,6 +106,7 @@ footer {
 }
 
 .jogos {
+
     color: #0864df;
     text-decoration: none;
 }
@@ -113,6 +114,14 @@ footer {
 .entrar {
     color: #0864df;
     text-decoration: none;
+
+    color: #00316b;
+}
+
+.entrar {
+    color: #00316b;
+
+
 }
 
 .fotos {
