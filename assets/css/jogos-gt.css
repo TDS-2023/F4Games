@@ -1,34 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-*{
+
+* {
     font-family: 'Bebas Neue', sans-serif;
 
 }
+
 /*linha acima é uma fonte importada*/
-body{
+body {
     background-color: rgb(36, 34, 34);
 }
 
-.Jogo1{
-    box-shadow: 0px 15px 30px 0px rgba(0,0,0,5);
+.Jogo1 {
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 5);
     border-radius: 50px;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
 }
 
-.jogo0{
+.jogo0 {
     background: url(../img/gran\ turismo7.png);
     height: 70vh;
     margin-bottom: 100px;
-    
+
 }
+
 /*linhas acima sao cor e a imagem de fundo*/
 /*linhas abaixo é informaçoes de compra*/
-.jogo{
-    
+.jogo {
+
     border-radius: 8px;
-    
+
     background-color: rgb(36, 34, 34);
     -webkit-animation: element-surge;
     animation: element-surge;
@@ -41,107 +45,120 @@ body{
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     border: 1px solid #03282f;
-   
-    
+
+
     margin-top: 50px;
     display: flex;
-    flex-direction:row;
-    color:darkgrey;
+    flex-direction: row;
+    color: darkgrey;
     font-size: 50px;
-    text-align:center;
+    text-align: center;
 }
+
 /*linha abaixo é o logo do nosso site*/
-.f4{
+.f4 {
     background-color: #00316b;
     height: 110px;
     margin-top: -70px;
-    box-shadow: 0px 15px 30px 0px rgba(0,0,0,5);
-    
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 5);
+
 
 }
+
 /* abaixo é o botao de pesquisa do jogo */
 
 /*linhas abaico sao os prelos do jogo*/
-.preço1{
+.preço1 {
     text-decoration: line-through;
     color: rgb(213, 21, 21);
     font-size: 30px;
     line-height: 1.125rem;
 }
-.preço2{
+
+.preço2 {
     color: white;
     font-size: 50px;
 }
-.pix{
-    color:#145c80;
-    font-family: "Metropolis",sans-serif;
+
+.pix {
+    color: #145c80;
+    font-family: "Metropolis", sans-serif;
     margin: 0;
     font-size: 20px;
     line-height: 1.125rem;
 
 }
-.pix0{
+
+.pix0 {
     align-items: center;
     margin-bottom: 50px;
 
 }
 
-.preço{
+.preço {
     width: 100%;
     margin-top: 20px;
 }
-.p1{
+
+.p1 {
     font-size: 20px;
     color: white;
 }
-.p2{
+
+.p2 {
     font-size: 20px;
     color: white;
 
 }
-.p2-1{
-    color:#145c80;  
+
+.p2-1 {
+    color: #145c80;
 }
+
 /*abaixo é um botao*/
-.botao{
+.botao {
     font-size: 20px;
-    box-shadow: 0px 15px 30px 0px rgba(0,0,0,5);
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 5);
     border-radius: 50px;
     width: 150px;
     height: 50px;
     background-color: rgb(75, 218, 75);
 }
+
 /*linha abaixo é um logo do jogo*/
-.logo1{
-    box-shadow: 0px 15px 30px 0px rgba(0,0,0,5);
+.logo1 {
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 5);
     border-radius: 60px;
 }
+
 /*linha abaixo é um resumo do jogo*/
-.resumo-jogo{
+.resumo-jogo {
     font-size: 40px;
     color: rgba(255, 255, 255, 0.703);
     width: 800px;
-    justify-content:end;
+    justify-content: end;
     margin-top: 40px;
-    
-    
+
+
 }
+
 /*linha abaixo é um trailer do jogo*/
 
-.trailer-conteudo{
+.trailer-conteudo {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
     margin-bottom: 50px;
     margin-left: 300px;
-   
+
 }
+
 /*linhas abaixo é um local de compra*/
 .container {
-    display: none; 
+    display: none;
     color: white;
-    box-shadow: 0px 15px 30px 0px rgba(0,0,0,5);
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 5);
     border-radius: 50px;
     flex-direction: column;
     align-items: center;
@@ -150,46 +167,51 @@ body{
     width: 200px;
     height: 350px;
     border: solid 2px rgb(37, 93, 166);
-    position: fixed; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1000;
 }
-    #show-or-hide{
-        font-size: 20px;
-        box-shadow: 0px 15px 30px 0px rgba(0,0,0,5);
-        border-radius: 50px;
-        width: 150px;
-        height: 50px;
-        background-color: rgb(75, 218, 75);}
 
-        /*linhas abaixo é o menu do site parte de entrada*/
-        .menu {
-            display: flex;
-            flex-direction: row;
-            gap: 15px;
-        }
-        
-        .jogos {
-            color: #00316b;
-        }
-        
-        .entrar {
-            color: #00316b;
-        
-        }
-        
-        
-        header{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            background-color: #007bff;
-            height: 100px;
-        }
-        /*rodape*/
+#show-or-hide {
+    font-size: 20px;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 5);
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(75, 218, 75);
+}
+
+/*linhas abaixo é o menu do site parte de entrada*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.jogos {
+    color: #00316b;
+    text-decoration: none;
+}
+
+.entrar {
+    color: #00316b;
+    text-decoration: none;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #007bff;
+    height: 100px;
+}
+
+/*rodape*/
 
 .caixa {
     display: flex;
@@ -260,7 +282,7 @@ h2 {
     font-size: 16px;
 }
 
-.f4g{
+.f4g {
     color: aliceblue;
 }
 
@@ -268,4 +290,3 @@ footer {
     background-color: #0864df;
     width: 100%;
 }
-

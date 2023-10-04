@@ -57,10 +57,12 @@ header {
 
 .jogos {
   color: #00316b;
+  text-decoration: none;
 }
 
 .entrar {
   color: #00316b;
+  text-decoration: none;
 
 }
 
@@ -215,12 +217,14 @@ main {
   border-left: 3px solid #0864df;
   background-color: rgb(36, 34, 34);
   border-radius: 20px;
+
 }
 
 .seguranca {
   border-left: 3px solid #0864df;
   background-color: rgb(36, 34, 34);
   border-radius: 20px;
+ 
 }
 
 hr {
@@ -235,6 +239,7 @@ h1 {
 
 h2 {
   color: #0864df;
+
 }
 
 .card p {

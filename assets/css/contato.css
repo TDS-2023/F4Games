@@ -53,7 +53,7 @@ body {
 }
 
 .sobre {
-    border-left: 3px solid #0864df;
+    border-left: 3px solid #007bff;
     background-color: rgb(36, 34, 34);
     border-radius: 20px;
 
@@ -107,11 +107,12 @@ footer {
 
 .jogos {
     color: #0864df;
+    text-decoration: none;
 }
 
 .entrar {
     color: #0864df;
-
+    text-decoration: none;
 }
 
 .fotos {
