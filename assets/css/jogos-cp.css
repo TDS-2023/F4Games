@@ -4,16 +4,11 @@
     font-family: 'Bebas Neue', sans-serif;
 
 }
-
+/* linha acima é uma fonte importada */
 body {
     background-color: rgb(36, 34, 34);
 }
 
-/*
-.Informações{
-    color: aliceblue;
-
-}*/
 .Jogo1 {
     box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 5);
     border-radius: 50px;
@@ -30,6 +25,8 @@ body {
     margin-bottom: 100px;
 
 }
+/* linhas acima sao cor e imagem de fundo */
+/*linhas abaixo sao informaçoes de compra*/
 
 .jogo {
 
@@ -56,6 +53,7 @@ body {
     font-size: 50px;
     text-align: center;
 }
+/* linha abaixo é o logo do nosso site  */
 
 .f4 {
     background-color: #00316b;
@@ -65,54 +63,7 @@ body {
 
 
 }
-
-/* abaixo é o botao de pesquisa do jogo */
-.search-box {
-    position: absolute;
-    top: 0%;
-    left: 80%;
-    transform: translate(-50, -50);
-    background: #353b48;
-    height: 60px;
-    border-radius: 40px;
-    padding: 10px;
-
-}
-
-.search-bnt {
-    color: white;
-    float: right;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: #353b48;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.search-text {
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: white;
-    font-size: 18px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;
-}
-
-.search-box:hover>.search-text {
-    width: 110px;
-    padding: 0 6px;
-}
-
-.search-box:hover>.search-bnt {
-    background: #00316b;
-
-}
+/* linhas abaixo é infomaçoes de compra */
 
 .preço1 {
     text-decoration: line-through;
@@ -132,6 +83,11 @@ body {
     margin: 0;
     font-size: 20px;
     line-height: 1.125rem;
+
+}
+.pix0 {
+    align-items: center;
+    margin-bottom: 50px;
 
 }
 
@@ -154,7 +110,7 @@ body {
 .p2-1 {
     color: #145c80;
 }
-
+/* linha abaixo é um botao  */
 .botao {
     font-size: 20px;
     box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 5);
@@ -163,12 +119,12 @@ body {
     height: 50px;
     background-color: rgb(75, 218, 75);
 }
-
+/* linha abaixo é uma imagem  */
 .logo1 {
     box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 5);
     border-radius: 60px;
 }
-
+/* linhas abaixo é o resumo do jogo  */
 .resumo-jogo {
     font-size: 40px;
     color: rgba(255, 255, 255, 0.703);
@@ -178,7 +134,7 @@ body {
 
 
 }
-
+/* linhas abaixo é o trailer do jogo */
 .trailer-conteudo {
     display: flex;
     flex-direction: row;
@@ -188,12 +144,7 @@ body {
     margin-left: 300px;
 
 }
-
-.pix0 {
-    align-items: center;
-    margin-bottom: 50px;
-
-}
+/* linhas abaixo é um local de compra */
 
 .container {
     display: none;
@@ -222,7 +173,7 @@ body {
     height: 50px;
     background-color: rgb(75, 218, 75);
 }
-
+ /* linhas abaixo é o menu do site */
 .menu {
     display: flex;
     flex-direction: row;
