@@ -188,11 +188,11 @@ body {
 }
 
 .jogos {
-    color: #0864df;
+    color: #00316b;
 }
 
 .entrar {
-    color: #0864df;
+    color: #00316b;
 
 }
 
@@ -202,7 +202,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #00316b;
+    background-color: #007bff;
     height: 100px;
 }
 

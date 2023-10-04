@@ -45,7 +45,7 @@ header {
   justify-content: space-around;
   align-items: center;
 
-  background-color: #00316b;
+  background-color: #007bff;
   width: 100%;
 }
 
@@ -56,11 +56,11 @@ header {
 }
 
 .jogos {
-  color: #0864df;
+  color: #00316b;
 }
 
 .entrar {
-  color: #0864df;
+  color: #00316b;
 
 }
 
