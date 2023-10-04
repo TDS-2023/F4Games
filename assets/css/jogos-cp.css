@@ -194,11 +194,13 @@ body {
 .jogos {
     color: #00316b;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .entrar {
     color: #00316b;
     text-decoration: none;
+    font-size: 20px;
 }
 
 
@@ -286,6 +288,6 @@ h2 {
 }
 
 footer {
-    background-color: #0864df;
+    background-color: #007bff;
     width: 100%;
 }

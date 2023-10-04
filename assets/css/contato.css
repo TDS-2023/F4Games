@@ -95,7 +95,7 @@ h2 {
 
 footer {
     margin-top: 50px;
-    background-color: #0864df;
+    background-color: #007bff;
 }
 
 .menu {
@@ -106,22 +106,18 @@ footer {
 
 .jogos {
 
-    color: #0864df;
+    color: #00316b;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .entrar {
     color: #0864df;
     text-decoration: none;
-
+    font-size: 20px;
     color: #00316b;
 }
 
-.entrar {
-    color: #00316b;
-
-
-}
 
 .fotos {
     display: flex;

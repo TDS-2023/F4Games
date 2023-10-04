@@ -57,19 +57,20 @@ header {
   color: #00316b;
   margin-left: 755px;
   margin-top: 40px;
-
+  font-size: 20px;
 }
 
 .jogos1{
   text-decoration: none;
   color: #00316b;
- 
+  font-size: 20px;
 }
 
 .entrar {
   color: #00316b;
   margin-top: 40px;
   text-decoration: none;
+  font-size: 20px;
 }
 /*clicar para entrar*/
 /*imagens do site (catlogo)*/
@@ -175,7 +176,7 @@ h2 {
 }
 
 footer {
-  background-color: #3681E8;
+  background-color: #007bff;
   margin-top: 150px;
  
 }
