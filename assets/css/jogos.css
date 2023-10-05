@@ -44,7 +44,7 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-
+  margin-top: -25px;
   background-color: #007bff;
   width: 100%;
 }
@@ -58,12 +58,13 @@ header {
 .jogos {
   color: #00316b;
   text-decoration: none;
+  font-size: 20px;
 }
 
 .entrar {
   color: #00316b;
   text-decoration: none;
-
+  font-size: 20px;
 }
 
 main {
@@ -169,10 +170,6 @@ main {
   transform: scale(1.05);
 }
 
-
-
-
-
 /*rodape*/
 
 .caixa {
@@ -224,7 +221,7 @@ main {
   border-left: 3px solid #0864df;
   background-color: rgb(36, 34, 34);
   border-radius: 20px;
- 
+
 }
 
 hr {
@@ -252,6 +249,6 @@ h2 {
 }
 
 footer {
-  background-color: #0864df;
+  background-color: #007bff;
   width: 100%;
 }

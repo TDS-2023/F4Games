@@ -21,10 +21,9 @@ body {
 }
 
 .jogo0 {
-    background: url(../img/gran\ turismo7.png);
+    background: url(../img/gran\ turismo7.jpg);
     height: 70vh;
     margin-bottom: 100px;
-
 }
 
 /*linhas acima sao cor e a imagem de fundo*/
@@ -183,12 +182,13 @@ body {
 .jogos {
     color: #00316b;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .entrar {
     color: #00316b;
     text-decoration: none;
-
+    font-size: 20px;
 }
 
 
@@ -277,6 +277,6 @@ h2 {
 }
 
 footer {
-    background-color: #0864df;
+    background-color: #007bff;
     width: 100%;
 }

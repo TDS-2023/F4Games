@@ -22,7 +22,7 @@ body {
 }
 
 .jogo0 {
-    background-image: url("../img/spider\ man.webp");
+    background-image: url("../img/spider\ man_resized.webp");
     height: 70vh;
     margin-bottom: 100px;
 
@@ -182,11 +182,13 @@ body {
 .jogos {
     color: #00316b;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .entrar {
     color: #00316b;
     text-decoration: none;
+    font-size: 20px;
 }
 
 
@@ -275,6 +277,6 @@ h2 {
 }
 
 footer {
-    background-color: #0864df;
+    background-color: #007bff;
     width: 100%;
 }

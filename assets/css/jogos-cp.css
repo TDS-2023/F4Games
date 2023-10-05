@@ -21,7 +21,7 @@ body {
 }
 
 .jogo0 {
-    background-image: url("../img/cyberpunk-2077\ copy.png");
+    background-image: url("../img/cyberpunk-2077.png");
     height: 70vh;
     margin-bottom: 100px;
 
@@ -184,11 +184,13 @@ body {
 .jogos {
     color: #00316b;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .entrar {
     color: #00316b;
     text-decoration: none;
+    font-size: 20px;
 }
 
 
@@ -276,6 +278,6 @@ h2 {
 }
 
 footer {
-    background-color: #0864df;
+    background-color: #007bff;
     width: 100%;
 }
