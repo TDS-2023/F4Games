@@ -21,7 +21,7 @@ body {
     display: flex;
     position: relative;
     width: 100%;
-    animation: carousel 8s infinite linear;
+    animation: carousel 15s infinite linear;
     background-color: rgba(0, 0, 0, 1.8);
 }
 

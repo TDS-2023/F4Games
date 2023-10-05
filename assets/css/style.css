@@ -18,17 +18,25 @@ body {
 }
 /*tudo html*/
 .projeto {
-  margin-left: 890px;
+  margin-left: 880px;
   position: absolute;
-  margin-top: -535px;
+  margin-top: -305px;
 }
 /*banner*/
 .titulo {
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 100px;
   color: rgb(255, 255,255, 0.703);
-  margin-left: 150px;
+  margin-left: 170px;
 }
+
+.lista{
+  margin-left: -148px;
+  width: 850px;
+  justify-content: end;
+  margin-top: 100px;
+}
+
 /*sobre o grupo*/
 
 h1 {
@@ -91,14 +99,7 @@ header {
   transform: scale(1.05);
 }
 /*imagens do site (catlogo)*/
-/* um sobre f4games */
-.lista{
-  margin-left: -148px;
-  width: 900px;
-  justify-content: end;
-  margin-top: 100px;
-}
-/* um sobre f4games */
+
 
 /*rodape*/
 
@@ -177,7 +178,7 @@ h2 {
 
 footer {
   background-color: #007bff;
-  margin-top: 150px;
+  margin-top: 300px;
  
 }
 /*rodape*/
